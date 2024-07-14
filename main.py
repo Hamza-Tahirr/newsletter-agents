@@ -82,7 +82,7 @@ if __name__ == "__main__":
     crew = NewsletterCrew(topic)
     result = crew.run()
     
-    print("\n\n########################")
-    print("## Here is your newsletter crew run result:")
-    print("########################\n")
-    print(result)
+    # print("\n\n########################")
+    # print("## Here is your newsletter crew run result:")
+    # print("########################\n")
+    # print(result)

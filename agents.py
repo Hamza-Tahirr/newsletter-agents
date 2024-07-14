@@ -5,7 +5,7 @@ from langchain_openai import ChatOpenAI
 
 class NewsletterAgents:
   def __init__(self):
-      self.OpenAIGPT4 = ChatOpenAI(model_name="gpt-4", temperature=0.7)
+      self.OpenAIGPT4 = ChatOpenAI(model_name="gpt-4-turbo", temperature=0.7)
 
   def climate_journalist_agent(self, tools):
       return Agent(

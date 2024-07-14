@@ -51,11 +51,12 @@ class NewsletterTasks:
           Well-written newsletter with proper citations and engaging content. 
           Name of the file: Newsletter.txt
           This should be the format of the final newsletter:
-          - Welcome Message and a description explaining the about the newsletter service.
-          - Table of Contents. Table of content should be consisting of the 5-6 sections present in the body.
+          - Heading or Title same as search.  
+          - Write a small 40 to 50 words of generelized summary of the content with summary heading.
           - The body should be divided into 5-6 sections. All the content from the research report must be summarized and shown. (Very Important)
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
-          - References and Citations.            
+          - References Resources. (The references should be in Bullet Points)
+          - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
           """,
           agent=agent,
           tools=tools,
@@ -87,10 +88,12 @@ class NewsletterTasks:
           Name of the file: Editor.txt 
 
           This should be the format of the final newsletter:
-          - Welcome Message and a description explaining the about the newsletter service.
-          - Table of Contents.
-          - The body should be divided into 6 sections. All the content from the research report must be summarized and shown. (Very Important)
-          - References and Citations.           
+          - Heading or Title same as search.
+          - Write a small 40 to 50 words of generelized summary of the content with summary heading.
+          - The body should be divided into 5-6 sections. All the content from the research report must be summarized and shown. (Very Important)
+          Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
+         - References Resources. (The references should be in Bullet Points)
+          - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
           """,
           agent=agent,
           tools=tools,
@@ -145,12 +148,13 @@ class NewsletterTasks:
           expected_output="""
               SEO-optimized versions of the EditorReport and metadata. 
               Name of the file: SEO_OptimizedNewsletter.txt
-              This should be the format of the final newsletter
-              - Welcome Message and a description explaining the about the newsletter service.
-              - Table of Contents.
-              - The body should be divided into 6 sections. All the content from the research report must be summarized and shown. (Very Important)
-              - References and Citations.     
-
+              This should be the format of the final newsletter:
+          - Heading or Title same as search.
+          - Write a small 40 to 50 words of generelized summary of the content with summary heading.
+          - The body should be divided into 5-6 sections. All the content from the research report must be summarized and shown. (Very Important)
+          Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
+          - References Resources. (The references should be in Bullet Points)
+          - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
           """,
           agent=agent,
           tools=tools,

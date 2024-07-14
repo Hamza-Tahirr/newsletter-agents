@@ -1,5 +1,28 @@
-Story 1: - Title: Tech companies bet on carbon removal startups as AI tests climate goals - Summary: Tech companies are investing in carbon removal startups as the number of companies making net-zero commitments continues to grow. - URL: https://finance.yahoo.com/news/tech-companies-bet-on-carbon-removal-startups-as-ai-tests-climate-goals-100026858.html 
-Story 2: - Title: Google's pledge to support carbon removal solutions - Summary: Google has pledged to contract for $35M of carbon removal credits over the next 12 months, supporting the U.S. DOE's new carbon removal initiative. - URL: https://blog.google/outreach-initiatives/sustainability/pledge-to-support-carbon-removal-solutions/ 
-Story 3: - Title: FACT SHEET: Biden-Harris Administration Announces New Principles for High-Integrity Voluntary Carbon Markets - Summary: The Biden-Harris administration has announced a new initiative to support technologies that remove carbon emissions directly from the atmosphere. - URL: https://www.whitehouse.gov/briefing-room/statements-releases/2024/05/28/fact-sheet-biden-harris-administration-announces-new-principles-for-high-integrity-voluntary-carbon-markets/ 
-Story 4: - Title: Chevron invests in carbon capture and removal technology - Summary: Chevron New Energies announced a lead investment in ION Clean Energy, a company specializing in carbon capture and removal technology. - URL: https://www.chevron.com/newsroom/2024/q2/chevron-invests-in-carbon-capture-and-removal-technology-company-ion-clean-energy 
-Story 5: - Title: JPMorgan Chase seeks to scale investment in emerging carbon removal technologies - Summary: JPMorgan Chase has signed a 9-year agreement with Climeworks, a leader in carbon dioxide removal through direct air capture. - URL: https://www.jpmorganchase.com/newsroom/press-releases/2023/jpmorgan-chase-seeks-to-scale-investment-in-emerging-carbon-removal-technologies
+The comprehensive research report titled "ResearchReport.txt" has been successfully compiled and written. It contains the following entries:
+
+Story 1:
+- Title: Extreme weather events in the last year | The Week
+- Summary: April 2023 saw a deadly storm system ripping through the Midwest, South and mid-Atlantic, showcasing the severe impacts of climate change.
+- URL: https://theweek.com/in-depth/1021278/2023-extreme-weather
+
+Story 2:
+- Title: 2023: A Summer of Extreme Weather - Council on Foreign Relations
+- Summary: This article discusses the unprecedented extreme weather during the summer of 2023, emphasizing the urgent need for climate action to mitigate future risks.
+- URL: https://www.cfr.org/article/weather-summer-2023-was-most-extreme-yet
+
+Story 3:
+- Title: Shocking Photos of Extreme Weather Around the World in 2023 So Far
+- Summary: Featuring striking visuals, this article highlights the devastating effects of extreme weather globally in 2023, underscoring the critical need for robust climate policies.
+- URL: https://www.globalcitizen.org/en/content/photos-extreme-weather-events-2023-climate-change/
+
+Story 4:
+- Title: The year's most extreme weather shows what a warming planet is ...
+- Summary: An in-depth look at 2023's extreme weather events like the deadly flash floods in Libya, demonstrating the tangible consequences of global warming.
+- URL: https://www.cnn.com/2023/12/30/weather/extreme-weather-climate-change-2023/index.html
+
+Story 5:
+- Title: How climate change worsens heatwaves, droughts, wildfires ... - BBC
+- Summary: This BBC article explores how human-caused warming is exacerbating natural disasters such as droughts and wildfires, focusing on the 2023 Amazon rainforest's severe drought.
+- URL: https://www.bbc.com/news/science-environment-58073295
+
+This report is ready for use in the newsletter to inform and engage readers on the pressing issue of climate conditions.
