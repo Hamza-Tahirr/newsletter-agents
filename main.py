@@ -1,3 +1,7 @@
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import Optional
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -75,14 +79,21 @@ class NewsletterCrew:
         result = crew.kickoff()
         return result
 
+# FastAPI app
+app = FastAPI()
+
+class NewsletterRequest(BaseModel):
+    topic: str
+
+@app.post("/generate-newsletter")
+def generate_newsletter(request: NewsletterRequest):
+    try:
+        crew = NewsletterCrew(request.topic)
+        result = crew.run()
+        return {"result": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 if __name__ == "__main__":
-    print("\n####### Welcome to the Climate Newsletter Agent #######")
-    print("-------------------------------------------------------")
-    topic = input("What climate-related topic would you like the newsletter to cover?\n")
-    crew = NewsletterCrew(topic)
-    result = crew.run()
-    
-    # print("\n\n########################")
-    # print("## Here is your newsletter crew run result:")
-    # print("########################\n")
-    # print(result)
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

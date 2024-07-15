@@ -19,8 +19,9 @@ class NewsletterTasks:
           Name of the file: ResearchReport.txt
           Each news story should contain the following:
           - Title of the news
-          - Summary of the news (Around 50 words)
-          - URL of the article where the news was found
+          - Summary of the news (Around 80 words)
+          - URL of the article where the news was found using your `google search tool`.
+          - Top 5 highly relevant research scholars using `google scholar tool`.
 
           Here is an example of the format of a news article that you could include in the document:
           
@@ -28,7 +29,9 @@ class NewsletterTasks:
             Story 1:
             - Title: **Daily briefing: AI now beats humans at basic reading and maths**
             - **Summary:** AI systems can now nearly match and sometimes exceed human performance in basic tasks. The report discusses the need for new benchmarks to assess AI capabilities and highlights the ethical considerations for AI models.
-            - **URL:** [Nature Article](https://www.nature.com/articles/d41586-024-01125-1)
+            - **URL:** 
+              [Reference Article](https://www.sunbasedata.com/blog/the-future-of-solar-energy-trends-to-watch)
+              [Reference Article](https://scholar.google.com/scholar_case?case=18363956969502505811&q=global+warming&hl=en&as_sdt=2006&as_rr=1)
           </EXAMPLE>
           """,
           agent=agent,
@@ -44,7 +47,7 @@ class NewsletterTasks:
               Include relevant in-text citations for all factual claims.
 
               Take a look at the word count and actual input given by the user: {user_input}.
-              If the word count is not given, make sure it is around 400 words.
+              If the word count is not given, make sure it is atleast 500 words.
               {self.__tip_section()}
           """),
           expected_output="""
@@ -56,7 +59,8 @@ class NewsletterTasks:
           - The body should be divided into 5-6 sections. All the content from the research report must be summarized and shown. (Very Important)
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
           - References Resources. (The references should be in Bullet Points)
-          - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
+         - Please search from and add one or two links from Google Scholar where you search for case law within Google Scholar. For <EXAMPLE>, this is a scholar case: https://scholar.google.com/scholar_case?case=18363956969502505811&q=global+warming&hl=en&as_sdt=2006&as_rr=1 </EXAMPLE>. Use the links from case studies case laws within Google Scholar also DONOT use google scholar citation of users ("https://scholar.google.com/citations?user...") but use the link starting from this url "https://scholar.google.com/scholar_case".
+           - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
           - Also when you complete all the above task after that give the complete output in JSON format
           """,
           agent=agent,
@@ -94,7 +98,8 @@ class NewsletterTasks:
           - The body should be divided into 5-6 sections. All the content from the research report must be summarized and shown. (Very Important)
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
          - References Resources. (The references should be in Bullet Points)
-          - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
+         - Please search from and add one or two links from Google Scholar where you search for case law within Google Scholar. For <EXAMPLE>, this is a scholar case: https://scholar.google.com/scholar_case?case=18363956969502505811&q=global+warming&hl=en&as_sdt=2006&as_rr=1 </EXAMPLE>. Use the links from case studies case laws within Google Scholar also DONOT use google scholar citation of users ("https://scholar.google.com/citations?user...") but use the link starting from this url "https://scholar.google.com/scholar_case".
+         - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
           - Also when you complete all the above task after that give the complete output in JSON format
           """,
           agent=agent,
@@ -156,7 +161,8 @@ class NewsletterTasks:
           - The body should be divided into 5-6 sections. All the content from the research report must be summarized and shown. (Very Important)
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
           - References Resources. (The references should be in Bullet Points)
-          - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
+        - Please search from and add one or two links from Google Scholar where you search for case law within Google Scholar. For <EXAMPLE>, this is a scholar case: https://scholar.google.com/scholar_case?case=18363956969502505811&q=global+warming&hl=en&as_sdt=2006&as_rr=1 </EXAMPLE>. Use the links from case studies case laws within Google Scholar also DONOT use google scholar citation of users ("https://scholar.google.com/citations?user...") but use the link starting from this url "https://scholar.google.com/scholar_case".
+           - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
          - Also when you complete all the above task after that give the complete output in JSON format
            """,
           agent=agent,

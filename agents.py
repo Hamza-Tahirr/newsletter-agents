@@ -49,7 +49,8 @@ class NewsletterAgents:
           accurate and trustworthy reporting."""),
           goal=dedent(f"""\
           Gather and verify data from reputable sources, supporting journalists 
-          with accurate information and fact-checking articles before publication."""),
+          with accurate information and fact-checking articles before publication.
+          - Please search from and add one or two links from Google Scholar where you search for case law within Google Scholar. For <EXAMPLE>, this is a scholar case: https://scholar.google.com/scholar_case?case=18363956969502505811&q=global+warming&hl=en&as_sdt=2006&as_rr=1 </EXAMPLE>. Use the links from case studies case laws within Google Scholar also donot use google scholar citation of users but use the link starting from this url "https://scholar.google.com/scholar_case".            """),
           tools=tools,
           allow_delegation=False,
           verbose=True,
@@ -96,7 +97,7 @@ class NewsletterAgents:
           wider audience. Your strategies help climate information gain visibility 
           and impact."""),
           goal=dedent(f"""\
-          Optimize content for search engines, using keywords and other strategies 
+          Optimize content for secarch engines, using keywords and other strategies 
           to improve the newsletter's visibility in search results."""),
           tools=tools,
           allow_delegation=False,
@@ -120,3 +121,5 @@ class NewsletterAgents:
           verbose=True,
           llm=self.OpenAIGPT4,
       )
+  
+  
