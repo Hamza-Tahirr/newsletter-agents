@@ -57,6 +57,7 @@ class NewsletterTasks:
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
           - References Resources. (The references should be in Bullet Points)
           - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
+          - Also when you complete all the above task after that give the complete output in JSON format
           """,
           agent=agent,
           tools=tools,
@@ -94,6 +95,7 @@ class NewsletterTasks:
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
          - References Resources. (The references should be in Bullet Points)
           - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
+          - Also when you complete all the above task after that give the complete output in JSON format
           """,
           agent=agent,
           tools=tools,
@@ -155,7 +157,8 @@ class NewsletterTasks:
           Remember, The body should not contain summary of each article, but should be a generalized summary of all the articles. 
           - References Resources. (The references should be in Bullet Points)
           - In last mention Related Topics on the content (The related topics should be in Bullet Points).             
-          """,
+         - Also when you complete all the above task after that give the complete output in JSON format
+           """,
           agent=agent,
           tools=tools,
           context=context,
